@@ -14,6 +14,17 @@
 		3BA9E6862C49BBD4009367AB /* Period_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6852C49BBD4009367AB /* Period_Tests.swift */; };
 		3BA9E6902C49BBD4009367AB /* Period_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E68F2C49BBD4009367AB /* Period_UITests.swift */; };
 		3BA9E6922C49BBD4009367AB /* Period_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6912C49BBD4009367AB /* Period_UITestsLaunchTests.swift */; };
+		3BA9E69F2C49C122009367AB /* periodHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E69E2C49C122009367AB /* periodHome.swift */; };
+		3BA9E6A12C49C241009367AB /* periodTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6A02C49C241009367AB /* periodTracking.swift */; };
+		3BA9E6A32C49C25F009367AB /* tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6A22C49C25F009367AB /* tips.swift */; };
+		3BA9E6A52C49C2AA009367AB /* productsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6A42C49C2AA009367AB /* productsTab.swift */; };
+		3BA9E6A72C49C2E2009367AB /* aboutUndies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6A62C49C2E2009367AB /* aboutUndies.swift */; };
+		3BA9E6A92C49C2FD009367AB /* aboutCups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6A82C49C2FD009367AB /* aboutCups.swift */; };
+		3BA9E6AB2C49C332009367AB /* aboutTampons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6AA2C49C332009367AB /* aboutTampons.swift */; };
+		3BA9E6AD2C49C34B009367AB /* aboutPads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6AC2C49C34B009367AB /* aboutPads.swift */; };
+		3BA9E6AF2C49C374009367AB /* Pink Tax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6AE2C49C374009367AB /* Pink Tax.swift */; };
+		3BA9E6B62C49C557009367AB /* Italiana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9E6B52C49C557009367AB /* Italiana-Regular.ttf */; };
+		3BA9E6B72C49C557009367AB /* Italiana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9E6B52C49C557009367AB /* Italiana-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		3BA9E68B2C49BBD4009367AB /* Period.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Period.UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA9E68F2C49BBD4009367AB /* Period_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period_UITests.swift; sourceTree = "<group>"; };
 		3BA9E6912C49BBD4009367AB /* Period_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BA9E69E2C49C122009367AB /* periodHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodHome.swift; sourceTree = "<group>"; };
+		3BA9E6A02C49C241009367AB /* periodTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodTracking.swift; sourceTree = "<group>"; };
+		3BA9E6A22C49C25F009367AB /* tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tips.swift; sourceTree = "<group>"; };
+		3BA9E6A42C49C2AA009367AB /* productsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productsTab.swift; sourceTree = "<group>"; };
+		3BA9E6A62C49C2E2009367AB /* aboutUndies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUndies.swift; sourceTree = "<group>"; };
+		3BA9E6A82C49C2FD009367AB /* aboutCups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutCups.swift; sourceTree = "<group>"; };
+		3BA9E6AA2C49C332009367AB /* aboutTampons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutTampons.swift; sourceTree = "<group>"; };
+		3BA9E6AC2C49C34B009367AB /* aboutPads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutPads.swift; sourceTree = "<group>"; };
+		3BA9E6AE2C49C374009367AB /* Pink Tax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pink Tax.swift"; sourceTree = "<group>"; };
+		3BA9E6B52C49C557009367AB /* Italiana-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Italiana-Regular.ttf"; sourceTree = "<group>"; };
+		3BA9E6B82C49C668009367AB /* Period--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Period--Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +116,18 @@
 		3BA9E6732C49BBD3009367AB /* Period. */ = {
 			isa = PBXGroup;
 			children = (
+				3BA9E6B82C49C668009367AB /* Period--Info.plist */,
+				3BA9E6B02C49C4C8009367AB /* Font */,
+				3BA9E6A22C49C25F009367AB /* tips.swift */,
 				3BA9E6742C49BBD3009367AB /* Period_App.swift */,
+				3BA9E6A02C49C241009367AB /* periodTracking.swift */,
+				3BA9E69E2C49C122009367AB /* periodHome.swift */,
+				3BA9E6A42C49C2AA009367AB /* productsTab.swift */,
+				3BA9E6A62C49C2E2009367AB /* aboutUndies.swift */,
+				3BA9E6A82C49C2FD009367AB /* aboutCups.swift */,
+				3BA9E6AA2C49C332009367AB /* aboutTampons.swift */,
+				3BA9E6AC2C49C34B009367AB /* aboutPads.swift */,
+				3BA9E6AE2C49C374009367AB /* Pink Tax.swift */,
 				3BA9E6762C49BBD3009367AB /* ContentView.swift */,
 				3BA9E6782C49BBD4009367AB /* Assets.xcassets */,
 				3BA9E67A2C49BBD4009367AB /* Preview Content */,
@@ -125,6 +158,14 @@
 				3BA9E6912C49BBD4009367AB /* Period_UITestsLaunchTests.swift */,
 			);
 			path = Period.UITests;
+			sourceTree = "<group>";
+		};
+		3BA9E6B02C49C4C8009367AB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9E6B52C49C557009367AB /* Italiana-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +274,7 @@
 			files = (
 				3BA9E67C2C49BBD4009367AB /* Preview Assets.xcassets in Resources */,
 				3BA9E6792C49BBD4009367AB /* Assets.xcassets in Resources */,
+				3BA9E6B62C49C557009367AB /* Italiana-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA9E6B72C49C557009367AB /* Italiana-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA9E6A92C49C2FD009367AB /* aboutCups.swift in Sources */,
+				3BA9E6AF2C49C374009367AB /* Pink Tax.swift in Sources */,
 				3BA9E6772C49BBD3009367AB /* ContentView.swift in Sources */,
+				3BA9E6A12C49C241009367AB /* periodTracking.swift in Sources */,
+				3BA9E69F2C49C122009367AB /* periodHome.swift in Sources */,
+				3BA9E6A32C49C25F009367AB /* tips.swift in Sources */,
+				3BA9E6AD2C49C34B009367AB /* aboutPads.swift in Sources */,
 				3BA9E6752C49BBD3009367AB /* Period_App.swift in Sources */,
+				3BA9E6A52C49C2AA009367AB /* productsTab.swift in Sources */,
+				3BA9E6A72C49C2E2009367AB /* aboutUndies.swift in Sources */,
+				3BA9E6AB2C49C332009367AB /* aboutTampons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +477,7 @@
 				DEVELOPMENT_TEAM = DN245BL68V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Period--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +507,7 @@
 				DEVELOPMENT_TEAM = DN245BL68V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Period--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
