@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CD7A11E2C4AD7520009D731 /* periodPoverty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7A11D2C4AD7520009D731 /* periodPoverty.swift */; };
+		0CD7A1202C4AE1BD0009D731 /* creditsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7A11F2C4AE1BD0009D731 /* creditsPage.swift */; };
 		3BA9E6752C49BBD3009367AB /* Period_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6742C49BBD3009367AB /* Period_App.swift */; };
 		3BA9E6772C49BBD3009367AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9E6762C49BBD3009367AB /* ContentView.swift */; };
 		3BA9E6792C49BBD4009367AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9E6782C49BBD4009367AB /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		0CD7A11D2C4AD7520009D731 /* periodPoverty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodPoverty.swift; sourceTree = "<group>"; };
+		0CD7A11F2C4AE1BD0009D731 /* creditsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creditsPage.swift; sourceTree = "<group>"; };
 		3BA9E6712C49BBD3009367AB /* Period..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Period..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA9E6742C49BBD3009367AB /* Period_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period_App.swift; sourceTree = "<group>"; };
 		3BA9E6762C49BBD3009367AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				3BA9E6742C49BBD3009367AB /* Period_App.swift */,
 				3BA9E6A02C49C241009367AB /* periodTracking.swift */,
 				3BA9E69E2C49C122009367AB /* periodHome.swift */,
+				0CD7A11F2C4AE1BD0009D731 /* creditsPage.swift */,
 				0CD7A11D2C4AD7520009D731 /* periodPoverty.swift */,
 				3BA9E6A42C49C2AA009367AB /* productsTab.swift */,
 				3BA9E6A62C49C2E2009367AB /* aboutUndies.swift */,
@@ -303,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD7A1202C4AE1BD0009D731 /* creditsPage.swift in Sources */,
 				3BA9E6A92C49C2FD009367AB /* aboutCups.swift in Sources */,
 				3BA9E6AF2C49C374009367AB /* Pink Tax.swift in Sources */,
 				3BA9E6772C49BBD3009367AB /* ContentView.swift in Sources */,

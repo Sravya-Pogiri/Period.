@@ -113,7 +113,7 @@ struct periodHome: View {
                         .frame(height: 20.0)
 
                     
-                    NavigationLink(destination: periodHome()) {
+                    NavigationLink(destination: creditsPage()) {
                         Text("Credits")
                             .font(.custom("Italiana-Regular", size: 25))
                             .foregroundColor(.black)
