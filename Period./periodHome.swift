@@ -56,7 +56,7 @@ struct periodHome: View {
                     Spacer()
                         .frame(height: 20.0)
                     
-                    NavigationLink(destination: periodHome()) {
+                    NavigationLink(destination: periodPoverty()) {
                         Text("Period Poverty")
                             .font(.custom("Italiana-Regular", size: 25))
                             .foregroundColor(.black)
